@@ -1,0 +1,103 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/091/144/original/South_Africa.jpg?1690281604");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  color: #black;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 0;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+li {
+  color: #black;
+  font-size: 20px;
+  font-weight: 500;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+
+.clearfix {
+  display: flex;
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 35px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 1000px;
+}
+
+.weather-icon {
+  height: 250px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.weather-icon {
+  height: 220px;
+  width: 256px;
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.units {
+  position: relative;
+  color: black;
+  top: -55px;
+}
+
+.daily-weather-icon {
+  font-size: 50px;
+  text-align: center;
+}
+
+.day-temp {
+  font-size: 16px;
+  color: black;
+  padding-left: 20px;
+}
+
+.hourly {
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+}
+
+.five-day-forecast {
+  font-size: 20px;
+  color: black;
+  padding-left: 20px;
+}
+
+#temperature {
+  color: rgb(33, 33, 33);
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 1;
+  padding: px;
+}
