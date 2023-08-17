@@ -94,13 +94,8 @@ li {
   padding-left: 20px;
 }
 
-.git-link {
-  text-align: center;
-}
-
-.created-name {
-  text-align: center;
-  color: white;
+.github-link {
+  align-items: center;
 }
 
 #temperature {
