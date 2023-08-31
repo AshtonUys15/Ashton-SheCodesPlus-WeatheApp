@@ -78,6 +78,9 @@ function getCurrentPosition() {
   navigator.geolocation.getCurrentPosition(showPosition);
 }
 
+let locationButton = document.querySelector("#location-button");
+locationButton.addEventListener("click", getCurrentPosition);
+
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
