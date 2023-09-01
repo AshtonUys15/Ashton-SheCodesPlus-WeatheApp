@@ -74,6 +74,13 @@ function handleSubmit(event) {
   search(cityInputElement.value);
 }
 
+function showPosition(position) {
+  let lat = position.coords.latitude;
+  let lon = position.coords.longitude;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=a33b693cfbefd271b0ed075f9a8f65f0`;
+  axios.get(apiUrl).then(showTemperature);
+}
+
 function getCurrentPosition() {
   navigator.geolocation.getCurrentPosition(showPosition);
 }
