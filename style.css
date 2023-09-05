@@ -50,7 +50,7 @@ li:first-letter {
 .weather-temperature img {
   margin-top: 0;
   margin-right: 5px;
-  height: 84px;
+  height: 8 4px;
   width: 84px;
 }
 .weather-temperature strong {
@@ -73,4 +73,22 @@ li:first-letter {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 50px;
+  text-align: center;
+  color: black;
+}
+
+.weather-forecast-date {
+  font-size: 18px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+
+.weather-forecast-temperatures {
+  font-size: 18px;
 }
